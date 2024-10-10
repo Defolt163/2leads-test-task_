@@ -1,0 +1,14 @@
+@keyframes gradient-move {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    20%{
+        transform: translate(0px, -70px);
+    }
+    40%{
+        transform: translate(40px, -60px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+}

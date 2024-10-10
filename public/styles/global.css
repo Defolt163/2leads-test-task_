@@ -1,0 +1,47 @@
+@import url(./fonts.css);
+@import url(./animations.css);
+:root{
+    --primary-color: #1A1A1A;
+    --primary-text-color: #FFFFFB;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.button{
+    cursor: pointer;
+    display: block;
+    padding: 20px 40px;
+    width: max-content;
+    background-color: #FFFFFB;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    transition: box-shadow .2s;
+}
+.button:hover{
+    box-shadow: 0px 0px 20px rgb(122, 31, 60);
+    transition: box-shadow .3s;
+}
+@media screen and (max-width: 992px) {
+    .container{
+        width: 95vw;
+    }
+}
+@media screen and (max-width: 520px) {
+    .button{
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+}
